@@ -1,14 +1,30 @@
+.title1 {
+  font-size: 16px;
+}
+.text1 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: red;
+}
+
+.title2 {
+  font-size: 36px;
+  font-weight: bold;
+  background: linear-gradient(transparent 75%, yellow 75%);
+}
+
+
 .title {
   position: relative;
   display: inline-block;
-  padding: 0 55px;
+  padding: 10px 55px;
 }
 .title:before, .title:after {
   content: "";
   position: absolute;
   top: 50%;
   display: inline-block;
-  width: 45%;
+  width: 45px;
   height: 1px;
   background-color: black;
 }
